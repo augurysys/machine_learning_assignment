@@ -1,4 +1,4 @@
-![alt text](AUGURY_logo.png =421 "Augury - machines talk, we listen")
+![alt text](AUGURY_logo.png =421x "Augury - machines talk, we listen")
 
 # Work Assignment - Machine Learning Developer
 ## Overview
