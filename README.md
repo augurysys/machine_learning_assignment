@@ -17,6 +17,6 @@ Prepare a short presentation describing your workflow. Please specify what you d
 ## Setup
 You can download the dataset from [here](https://github.com/augurysys/machine_learning_assignment/raw/master/augury_ml_assignment.zip).
 
-Once you’re finished, please send your results by email to [mailto:dbarsky@augury.com]. The email should have two attachments:
+Once you’re finished, please send your results by email to [dbarsky@augury.com](mailto:dbarsky@augury.com). The email should have two attachments:
 1. predicted_labels_test.csv - your predictions for the test set, in CSV format, as specified above.
 2. A presentation outlining your work process and conclusions.
