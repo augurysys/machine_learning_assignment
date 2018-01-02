@@ -1,4 +1,4 @@
-<img src="AUGURY_logo.png" width="421" height="200" />
+<p style="text-align:center;"><img src="AUGURY_logo.png" width="421" height="200" /></p>
 
 # Work Assignment - Machine Learning Developer
 ## Overview
