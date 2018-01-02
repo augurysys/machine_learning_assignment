@@ -1,4 +1,4 @@
-![alt text](AUGURY_logo.png "Augury - machines talk, we listen")
+![alt text](AUGURY_logo.png =421 "Augury - machines talk, we listen")
 
 # Work Assignment - Machine Learning Developer
 ## Overview
@@ -15,7 +15,7 @@ Classify each speaker in the test set to “male” or “female”, and send us
 Prepare a short presentation describing your workflow. Please specify what you did, what challenges you encountered, and how you overcame them. Anything presented visually will be appreciated.
 
 ## Setup
-You can download the dataset from [here](https://github.com/augurysys/machine_learning_assignment/blob/master/augury_ml_assignment.zip).
+You can download the dataset from [here](https://github.com/augurysys/machine_learning_assignment/raw/master/augury_ml_assignment.zip).
 
 Once you’re finished, please send your results by email to [mailto:dbarsky@augury.com]. The email should have two attachments:
 1. predicted_labels_test.csv - your predictions for the test set, in CSV format, as specified above.
