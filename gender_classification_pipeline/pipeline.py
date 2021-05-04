@@ -4,7 +4,6 @@ from queue import Queue
 import os
 
 from gender_classification_pipeline.consumer import PredictionConsumer
-from gender_classification_pipeline.gender_predictor import GenderPredictor
 from gender_classification_pipeline.generator import SampleGenerator
 from threading import Event
 
