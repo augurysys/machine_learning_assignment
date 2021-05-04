@@ -14,8 +14,8 @@ _sym_db = _symbol_database.Default()
 
 
 from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
-from ml_assignment_proto import user_pb2 as ml__assignment__proto_dot_user__pb2
-from ml_assignment_proto import recording_device_pb2 as ml__assignment__proto_dot_recording__device__pb2
+from gender_classification_pipeline.ml_assignment_proto import user_pb2 as ml__assignment__proto_dot_user__pb2
+from gender_classification_pipeline.ml_assignment_proto import recording_device_pb2 as ml__assignment__proto_dot_recording__device__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
