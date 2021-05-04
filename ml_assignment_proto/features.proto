@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package ml_assignment_proto;
+
+import "google/protobuf/timestamp.proto";
+import "ml_assignment_proto/user.proto";
+import "ml_assignment_proto/recording_device.proto";
+
+message Feature {
+  string name = 1;
+  float value = 2;
+}
+
+message Features {
+  ml_assignment_proto.User user = 1;
+  ml_assignment_proto.RecordingDevice recorder = 2;
+  google.protobuf.Timestamp recording_time = 3;
+  repeated Feature features = 4;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package ml_assignment_proto;
+
+
+message RecordingDevice {
+  string make = 1;
+  string model = 2;
+  string hw_version = 3;
+
+  enum RecorderType {
+    MICROPHONE = 0;
+    MOBILE_PHONE = 1;
+    OTHER = 2;
+  }
+
+  RecorderType recorder_type = 4;
+}

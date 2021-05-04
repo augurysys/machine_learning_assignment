@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package ml_assignment_proto;
+
+import "google/protobuf/timestamp.proto";
+import "ml_assignment_proto/user.proto";
+import "ml_assignment_proto/recording_device.proto";
+
+message Prediction {
+    google.protobuf.Timestamp recording_time = 1;
+    google.protobuf.Timestamp prediction_time = 2;
+    ml_assignment_proto.User user = 3;
+    ml_assignment_proto.RecordingDevice recorder = 4;
+
+    enum Gender {
+        MALE = 0;
+        FEMALE = 1;
+    }
+
+    Gender predicted_gender = 5;
+}
