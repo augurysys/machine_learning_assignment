@@ -3,8 +3,8 @@ syntax = "proto3";
 package ml_assignment_proto;
 
 import "google/protobuf/timestamp.proto";
-import "gender_classification_pipeline/ml_assignment_proto/user.proto";
-import "gender_classification_pipeline/ml_assignment_proto/recording_device.proto";
+import "ml_assignment_proto/user.proto";
+import "ml_assignment_proto/recording_device.proto";
 
 message Prediction {
     google.protobuf.Timestamp recording_time = 1;
