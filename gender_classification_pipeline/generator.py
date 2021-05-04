@@ -6,7 +6,7 @@ import typing
 from queue import Queue
 from threading import Thread
 
-from ml_assignment_proto.features_pb2 import Features
+from gender_classification_pipeline.ml_assignment_proto.features_pb2 import Features
 
 log = logging.getLogger(__file__)
 logging.basicConfig(level=logging.INFO)

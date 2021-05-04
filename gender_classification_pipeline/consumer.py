@@ -4,7 +4,7 @@ from queue import Queue, Empty
 from threading import Thread, Event
 from enum import Enum
 
-from ml_assignment_proto.prediction_pb2 import Prediction
+from gender_classification_pipeline.ml_assignment_proto.prediction_pb2 import Prediction
 
 log = logging.getLogger(__file__)
 logging.basicConfig(level=logging.INFO)
